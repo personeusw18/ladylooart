@@ -1,0 +1,81 @@
+---
+import { ViewTransitions } from 'astro:transitions'
+import Layout from '../layouts/Layout.astro'
+import ArtworkCard from '../components/ArtworkCard.astro'
+import ArtworkRow from '../components/ArtworkRow.astro'
+import images from '../utils/images.js'
+import ArtworkSection from '../components/ArtworkSection.astro'
+import ArtworkModal from '../components/ArtworkModal.astro'
+
+// Landing page for LadyLooArt.com
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title class="">LadyLooArt</title>
+  </head>
+  <body>
+    <Layout>
+      <div class="flex-col justify-center w-full">
+        <ArtworkSection backgroundColor="bg-gray-700">
+          <ArtworkCard src={images.WAVES_2} alt="Waves_2" hero />
+          <ArtworkRow>
+            <ArtworkCard src={images.FOAM_1} alt="Foam_1" />
+            <ArtworkCard src={images.FOAM_2} alt="Foam_2" />
+          </ArtworkRow>
+          <ArtworkRow>
+            <ArtworkCard src={images.WAVES_1} alt="Waves_1" />
+            <ArtworkCard src={images.FOAM_3} alt="Foam_3" />
+          </ArtworkRow>
+        </ArtworkSection>
+
+        <ArtworkSection>
+          <ArtworkCard src={images.FLORAL} alt="Floral" hero />
+          <ArtworkRow>
+            <ArtworkCard src={images.CAMELLIA_1} alt="Camella_1" />
+            <ArtworkCard src={images.AZALEA} alt="Azalea" />
+            <ArtworkCard src={images.CAMELLIA_2} alt="Camella_2" />
+          </ArtworkRow>
+          <ArtworkRow>
+            <ArtworkCard src={images.LAVENDER} alt="Lavender" />
+            <ArtworkCard src={images.HYDRANGEA} alt="Hydrangea" />
+          </ArtworkRow>
+        </ArtworkSection>
+
+        <ArtworkSection backgroundColor="bg-zinc-700">
+          <ArtworkCard src={images.MARBLE} alt="Marble" hero />
+          <ArtworkRow>
+            <ArtworkCard src={images.LEAVES_1} alt="Leaves_1" />
+            <ArtworkCard src={images.LEAVES_2} alt="Leaves_1" />
+          </ArtworkRow>
+          <ArtworkRow>
+            <ArtworkCard src={images.LEAVES_3} alt="Leaves_1" />
+            <ArtworkCard src={images.LEAVES_4} alt="Leaves_1" />
+          </ArtworkRow>
+        </ArtworkSection>
+
+        <ArtworkSection backgroundColor="bg-yellow-50">
+          <ArtworkRow>
+            <ArtworkCard src={images.DOORWAY_1} alt="Doorway_1" hero />
+            <ArtworkCard src={images.DOORWAY_2} alt="Doorway_2" hero />
+          </ArtworkRow>
+          <ArtworkRow>
+            <ArtworkCard src={images.DOORWAY_3} alt="Doorway_3" hero />
+            <ArtworkCard src={images.ROCK_2} alt="Rock_2" />
+            <ArtworkCard src={images.ROCK_1} alt="Rock_1" />
+            <ArtworkCard src={images.LANTERN} alt="Lantern" hero />
+          </ArtworkRow>
+          <ArtworkCard
+            src={images.PETALS}
+            alt="Petals"
+            hero
+            cardStyle="px-12"
+          />
+        </ArtworkSection>
+      </div>
+    </Layout>
+  </body>
+</html>

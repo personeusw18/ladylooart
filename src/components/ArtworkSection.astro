@@ -1,0 +1,13 @@
+---
+interface Props {
+  backgroundColor?: string
+}
+
+const { backgroundColor = 'bg-white' } = Astro.props
+---
+
+<div class=`flex justify-center ${backgroundColor} w-full`>
+  <div class="py-12 w-2/3 items-center">
+    <slot />
+  </div>
+</div>

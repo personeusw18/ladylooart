@@ -1,0 +1,25 @@
+<div
+  id="artwork-modal"
+  class="fixed inset-0 items-center justify-center bg-black bg-opacity-75 z-50 hidden"
+>
+  <div class="flex-col w-full">
+    <div class="absolute top-4 right-4">
+      <button
+        id="artwork-modal-close-button"
+        class="text-white text-4xl w-12 h-12 flex items-center justify-center bg-zinc-600 bg-opacity-50 rounded-full hover:bg-opacity-80 transition duration-200"
+      >
+        &times;
+      </button>
+    </div>
+
+    <img
+      id="artwork-modal-image"
+      src=""
+      alt=""
+      class="w-[80%] max-h-[80vh] mx-auto h-auto object-contain animate-appearFast"
+      loading="eager"
+    />
+  </div>
+</div>
+
+<script src="/src/scripts/artwork-modal.js" defer></script>

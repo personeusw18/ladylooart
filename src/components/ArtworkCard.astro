@@ -1,0 +1,32 @@
+---
+import { Image } from 'astro:assets'
+
+interface Props {
+  src: ImageMetadata
+  alt: string
+  hero?: boolean
+  title?: string
+  description?: string
+  href?: string
+  cardStyle?: string
+  imageStyle?: string
+}
+
+const { src, alt, hero, title, description, href, cardStyle, imageStyle } =
+  Astro.props
+
+const isHero = hero !== undefined
+const maxHeight = isHero ? 'max-h-[768px]' : 'max-h-[512px]'
+---
+
+<a
+  href={href}
+  class={`artwork-card flex justify-center mt-4 ${cardStyle}`}
+  data-modal-target="artwork-modal"
+>
+  <Image
+    src={src}
+    alt={alt}
+    class=`animate-artwork-card-image h-full w-auto opacity-0 ${maxHeight} transition-transform duration-200 transform hover:scale-[101%] object-contain hover:cursor-pointer ${imageStyle}`
+  />
+</a>

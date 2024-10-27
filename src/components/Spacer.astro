@@ -1,0 +1,26 @@
+---
+interface Props {
+  variant?: 'xs' | 'small' | 'medium' | 'large' | 'xl'
+}
+
+const { variant = 'medium' } = Astro.props
+
+const getSpacerHeight = () => {
+  switch (variant) {
+    case 'xs':
+      return 'h-[32px]'
+    case 'small':
+      return 'h-[64px]'
+    case 'medium':
+      return 'h-[128px]'
+    case 'large':
+      return 'h-[256px]'
+    case 'xl':
+      return 'h-[512px]'
+  }
+}
+
+const height = getSpacerHeight()
+---
+
+<div class=`w-full ${height}`></div>
