@@ -19,10 +19,8 @@ import Navbar from '../components/Navbar.astro'
       <ArtworkModal />
       <slot />
     </main>
-    <script
-      is:inline
-      src="/public/scripts/artwork-card-scroll-listener.js"
-      defer></script>
-    <script is:inline src="/public/scripts/artwork-modal.js" defer></script>
+    <script is:inline src="/scripts/artwork-card-scroll-listener.js" defer
+    ></script>
+    <script is:inline src="/scripts/artwork-modal.js" defer></script>
   </body>
 </html>
