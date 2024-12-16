@@ -8,6 +8,5 @@ import react from "@astrojs/react";
 // https://astro.build/config
 export default defineConfig({
   site: 'https://personeusw18.github.io',
-  base: 'ladylooart',
   integrations: [tailwind(), react()],
 });
