@@ -9,5 +9,6 @@ import react from "@astrojs/react";
 export default defineConfig({
   site: 'https://personeusw18.github.io',
   base: 'ladylooart',
+  output: 'static',
   integrations: [tailwind(), react()],
 });
