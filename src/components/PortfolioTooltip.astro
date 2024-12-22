@@ -1,0 +1,23 @@
+---
+import { TOOLTIP1, TOOLTIP2 } from '../content/strings'
+---
+
+<div
+  id="fadeComponent"
+  class="absolute z-50 top-32 mr-12 right-0 border-r-0 border-l-0 border-b-0 border-white border-2 bg-white lg:bg-transparent bg-opacity-90 text-slate-700 lg:text-white p-4 w-40 rounded-md text-center flex-col justify-between font-bold"
+>
+  <p>{TOOLTIP1}</p>
+  <p>&</p>
+  <p>{TOOLTIP2}</p>
+</div>
+
+<script>
+  window.addEventListener('load', () => {
+    setTimeout(() => {
+      const fadeComponent = document.getElementById('fadeComponent')
+      if (!fadeComponent) return
+      fadeComponent.style.transition = 'opacity 7.5s ease-in'
+      fadeComponent.style.opacity = '0'
+    }, 0)
+  })
+</script>
