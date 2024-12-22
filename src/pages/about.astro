@@ -9,7 +9,11 @@ import {
   ARTIST_STATEMENT_P2,
   ARTIST_STATEMENT_P3,
   HELLO,
+  EMAIL,
+  FOLLOW,
+  PHONE,
 } from '../content/strings'
+import Spacer from '../components/Spacer.astro'
 
 // Landing page for LadyLooArt.com
 ---
@@ -18,6 +22,10 @@ import {
   <head>
     <meta charset="utf-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
     <title class="">LadyLooArt</title>
@@ -28,8 +36,10 @@ import {
       <div class="flex-col">
         <!-- Hero Banner -->
         <div class="p-4 lg:p-8 w-full h-auto bg-gray-700 gap-4 items-center">
-          <div class="flex gap-2 lg:gap-4">
-            <div class="relative items-center flex w-4/5 mt-2 mb-2">
+          <div class="flex flex-col lg:flex-row gap-2 lg:gap-4">
+            <div
+              class="relative items-center flex w-full lg:w-2/3 xl:w-4/5 mt-2 mb-2 order-1 lg:order-1"
+            >
               <Image
                 src={JOANNE}
                 alt="Description"
@@ -40,26 +50,46 @@ import {
               >
               </div>
             </div>
-            <div class="w-0.5 h-auto bg-white"></div>
-            <div
-              class="bg-white w-1/5 h-10 lg:h-20 text-center bg-opacity-90 mt-8 flex items-center justify-center"
-            >
-              <h1
-                class="text-slate-500 text-sm md:text-lg lg:text-3xl font-bold"
+            <div class="w-0.5 h-auto bg-white order-3 lg:order-2"></div>
+            <div class="w-full lg:w-1/3 xl:1/5 order-2 lg:order-3">
+              <div
+                class="bg-white h-12 lg:h-20 text-center bg-opacity-90 mt-2 flex items-center justify-center rounded-md"
               >
-                {HELLO}
-              </h1>
+                <h1 class="text-slate-500 text-2xl lg:text-3xl font-bold">
+                  {HELLO}
+                </h1>
+              </div>
+              <div
+                class="text-slate-500 font-bold bg-white bg-opacity-90 py-4 lg:py-8 px-4 rounded-md mt-2"
+              >
+                <p class="mb-1 text-sm">{EMAIL}</p>
+                <p class="mb-1 text-sm">{PHONE}</p>
+                <div class="flex gap-2">
+                  <p class="text-sm">{FOLLOW}</p>
+                  <div class="bg-slate-500 w-6 h-6 px-1 rounded-md">
+                    <a
+                      href="https://www.facebook.com/people/Ladyloo-Art/61571122040238/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="text-white pl-1"
+                    >
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="w-full h-0.5 mt-2 bg-amber-400"></div>
+              </div>
             </div>
           </div>
         </div>
         <!-- Content -->
         <div class="border-[12px] border-slate-500">
           <div
-            class="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 px-8 py-8 lg:p-12 xl:p-20 2xl:p-28 h-fit text-lg md:text-xl"
+            class="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 px-4 py-4 lg:px-12 lg:py-8 xl:px-20 xl:py-12 2xl:px-28 h-fit text-lg md:text-xl"
           >
             <!-- Left Column for Text -->
             <div
-              class="font-serif 2xl:col-span-2 text-gray-950 text-justify lg:pr-8 text-xs lg:text-sm xl:text-base 2xl:text-lg"
+              class="font-serif 2xl:col-span-2 text-gray-950 text-justify lg:pr-8 text-base lg:text-md xl:text-lg 2xl:text-xl"
             >
               <p class="">{ARTIST_STATEMENT_P1}</p>
               <p class="mt-4 mb-4">{ARTIST_STATEMENT_P2}</p>

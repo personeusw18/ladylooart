@@ -13,4 +13,14 @@ export const ARTIST_STATEMENT_P3 = `Inspired by the un-orchestrated balance foun
   After participating in seasonal shows on weekends and donating work to help fund the art council and children's charities in and around Corning NY, I am now thrilled to have the opportunity to paint full-time. 
   The positive response to my recent shows has fueled my artistic exploration, reinforcing my belief that there are no mistakes—only opportunities for creativity to flourish.`
 
-export const HELLO = `Hi, I'm Joanne`
+export const HELLO = `I'm Joanne`
+
+export const EMAIL = 'joannesharman17@gmail.com'
+
+export const PHONE = '607-742-7911'
+
+export const FOLLOW = 'Follow me:'
+
+export const TOOLTIP1 = 'Scroll down'
+
+export const TOOLTIP2 = 'Click artwork for more details'
