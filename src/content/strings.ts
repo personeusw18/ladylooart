@@ -21,6 +21,4 @@ export const PHONE = '607-742-7911'
 
 export const FOLLOW = 'Follow me:'
 
-export const TOOLTIP1 = 'Scroll down'
-
-export const TOOLTIP2 = 'Click artwork for more details'
+export const TOOLTIP = 'Scroll down to see more'
