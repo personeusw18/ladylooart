@@ -9,13 +9,4 @@ import { TOOLTIP } from '../content/strings'
   <p>{TOOLTIP}</p>
 </div>
 
-<script>
-  window.addEventListener('load', () => {
-    setTimeout(() => {
-      const fadeComponent = document.getElementById('fadeComponent')
-      if (!fadeComponent) return
-      fadeComponent.style.transition = 'opacity 7.5s ease-in'
-      fadeComponent.style.opacity = '0'
-    }, 0)
-  })
-</script>
+<script is:inline src="/scripts/fade-component.js" defer></script>

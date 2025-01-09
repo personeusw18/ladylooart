@@ -5,6 +5,7 @@ import ArtworkRow from '../components/ArtworkRow.astro'
 import images from '../utils/images.js'
 import ArtworkSection from '../components/ArtworkSection.astro'
 import PortfolioTooltip from '../components/PortfolioTooltip.astro'
+import Spacer from '../components/Spacer.astro'
 
 // Landing page for LadyLooArt.com
 ---
@@ -15,45 +16,97 @@ import PortfolioTooltip from '../components/PortfolioTooltip.astro'
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
     <title class="">LadyLooArt</title>
+    <script is:inline src="/scripts/randomize-artwork-sections.js" defer
+    ></script>
   </head>
   <body>
     <Layout>
       <PortfolioTooltip />
-      <div class="flex-col justify-center w-full">
-        <ArtworkSection backgroundColor="bg-gray-700">
-          <ArtworkCard src={images.WAVES_2} alt="Waves_2" hero />
+      <div class="flex-col justify-center w-full parent-container">
+        <ArtworkSection backgroundColor="bg-cyan-700">
+          <ArtworkRow />
           <ArtworkRow>
-            <ArtworkCard src={images.FOAM_1} alt="Foam_1" />
-            <ArtworkCard src={images.FOAM_2} alt="Foam_2" />
+            <ArtworkCard src={images.FLOWERS} alt="" hero />
+            <ArtworkCard src={images.DSCF0150} alt="" hero />
+          </ArtworkRow>
+          <Spacer variant="xs" />
+          <ArtworkRow>
+            <ArtworkCard src={images.BLOODSTONE_1} alt="" hero />
+            <ArtworkCard src={images.BLOODSTONE_2} alt="" hero />
           </ArtworkRow>
           <ArtworkRow>
-            <ArtworkCard src={images.WAVES_1} alt="Waves_1" />
-            <ArtworkCard src={images.FOAM_3} alt="Foam_3" />
+            <ArtworkCard src={images.JASPER_1} alt="" />
+            <ArtworkCard src={images.JASPER_2} alt="" hero />
+            <ArtworkCard src={images.JASPER_3} alt="" />
           </ArtworkRow>
         </ArtworkSection>
 
-        <ArtworkSection>
-          <ArtworkCard src={images.FLORAL} alt="Floral" hero />
+        <ArtworkSection backgroundColor="bg-gray-800">
+          <ArtworkRow>
+            <ArtworkCard src={images.WAVES_2} alt="Waves_2" hero />
+          </ArtworkRow>
+          <ArtworkRow>
+            <ArtworkCard src={images.FOAM_1} alt="Foam_1" />
+            <ArtworkCard src={images.FOAM_2} alt="Foam_2" />
+            <ArtworkCard src={images.FOAM_3} alt="Foam_3" />
+          </ArtworkRow>
+          <Spacer variant="xs" />
+          <ArtworkRow>
+            <ArtworkCard src={images.WAVES_1} alt="Waves_1" hero />
+          </ArtworkRow>
+
+          <Spacer variant="xs" />
+          <ArtworkRow>
+            <ArtworkCard src={images.DSCF0065} alt="" hero />
+            <ArtworkCard src={images.DSCF0084} alt="" hero />
+          </ArtworkRow>
+          <ArtworkRow>
+            <ArtworkCard src={images.DSCF0086} alt="" hero />
+            <ArtworkCard src={images.DSCF0083} alt="" hero />
+          </ArtworkRow>
+        </ArtworkSection>
+
+        <ArtworkSection backgroundColor="bg-pink-950">
+          <ArtworkRow>
+            <ArtworkCard src={images.FLORAL} alt="Floral" hero />
+          </ArtworkRow>
           <ArtworkRow>
             <ArtworkCard src={images.CAMELLIA_1} alt="Camella_1" />
             <ArtworkCard src={images.AZALEA} alt="Azalea" />
             <ArtworkCard src={images.CAMELLIA_2} alt="Camella_2" />
           </ArtworkRow>
           <ArtworkRow>
-            <ArtworkCard src={images.LAVENDER} alt="Lavender" />
-            <ArtworkCard src={images.HYDRANGEA} alt="Hydrangea" />
+            <ArtworkCard src={images.HYDRANGEA} alt="Hydrangea" hero />
+            <ArtworkCard src={images.DSCF0134} alt="" hero />
           </ArtworkRow>
+          <Spacer variant="xs" />
+          <ArtworkRow>
+            <ArtworkCard src={images.MARBLE} alt="Marble" hero />
+            <ArtworkCard src={images.DSCF0043} alt="" hero />
+          </ArtworkRow>
+          <Spacer variant="xs" />
         </ArtworkSection>
 
-        <ArtworkSection backgroundColor="bg-zinc-700">
-          <ArtworkCard src={images.MARBLE} alt="Marble" hero />
+        <ArtworkSection backgroundColor="bg-zinc-800">
+          <ArtworkRow>
+            <ArtworkCard src={images.SUN} alt="Sun" hero />
+            <ArtworkCard src={images.RUST} alt="Rust" hero />
+          </ArtworkRow>
+          <Spacer variant="xs" />
           <ArtworkRow>
             <ArtworkCard src={images.LEAVES_1} alt="Leaves_1" />
             <ArtworkCard src={images.LEAVES_2} alt="Leaves_1" />
+            <ArtworkCard src={images.DSCF0097} alt="" />
           </ArtworkRow>
           <ArtworkRow>
+            <ArtworkCard src={images.DSCF0098} alt="" />
             <ArtworkCard src={images.LEAVES_3} alt="Leaves_1" />
             <ArtworkCard src={images.LEAVES_4} alt="Leaves_1" />
+          </ArtworkRow>
+          <Spacer variant="xs" />
+          <ArtworkRow>
+            <ArtworkCard src={images.DSCF0038} alt="" hero />
+            <ArtworkCard src={images.TULIP} alt="Void" hero />
           </ArtworkRow>
         </ArtworkSection>
 
@@ -61,19 +114,138 @@ import PortfolioTooltip from '../components/PortfolioTooltip.astro'
           <ArtworkRow>
             <ArtworkCard src={images.DOORWAY_1} alt="Doorway_1" hero />
             <ArtworkCard src={images.DOORWAY_2} alt="Doorway_2" hero />
+            <ArtworkCard src={images.DOORWAY_3} alt="Doorway_3" hero />
           </ArtworkRow>
           <ArtworkRow>
-            <ArtworkCard src={images.DOORWAY_3} alt="Doorway_3" hero />
+            <ArtworkCard src={images.PETALS} alt="Petals" hero />
+            <ArtworkCard src={images.DSCF0130} alt="" hero />
+          </ArtworkRow>
+          <ArtworkRow>
+            <ArtworkCard src={images.DSCF0157} alt="" />
             <ArtworkCard src={images.ROCK_2} alt="Rock_2" />
             <ArtworkCard src={images.ROCK_1} alt="Rock_1" />
-            <ArtworkCard src={images.LANTERN} alt="Lantern" hero />
           </ArtworkRow>
-          <ArtworkCard
-            src={images.PETALS}
-            alt="Petals"
-            hero
-            cardStyle="px-12"
-          />
+          <ArtworkRow>
+            <ArtworkCard src={images.DSCF0154} alt="" hero />
+            <ArtworkCard src={images.DSCF0155} alt="" hero />
+          </ArtworkRow>
+          <ArtworkRow>
+            <ArtworkCard src={images.LANTERN} alt="Lantern" hero />
+            <ArtworkCard src={images.DSCF0151} alt="" hero />
+          </ArtworkRow>
+        </ArtworkSection>
+
+        <ArtworkSection backgroundColor="bg-orange-100">
+          <ArtworkRow>
+            <ArtworkCard src={images.DSCF0131} alt="" hero />
+            <ArtworkCard src={images.DSCF0132} alt="" hero />
+          </ArtworkRow>
+          <ArtworkRow>
+            <ArtworkCard src={images.DSCF0001} alt="" />
+            <ArtworkCard src={images.DSCF0002} alt="" />
+          </ArtworkRow>
+          <ArtworkRow>
+            <ArtworkCard src={images.DSCF0003} alt="" />
+            <ArtworkCard src={images.DSCF0004} alt="" />
+          </ArtworkRow>
+          <ArtworkRow>
+            <ArtworkCard src={images.DSCF0152} alt="" hero />
+          </ArtworkRow>
+        </ArtworkSection>
+
+        <ArtworkSection backgroundColor="bg-emerald-900">
+          <ArtworkRow>
+            <ArtworkCard src={images.DSCF0035} alt="" hero />
+            <ArtworkCard src={images.DSCF0156} alt="" hero />
+          </ArtworkRow>
+          <ArtworkRow>
+            <ArtworkCard src={images.DSCF0070} alt="" />
+            <ArtworkCard src={images.DSCF0071} alt="" />
+          </ArtworkRow>
+          <ArtworkRow>
+            <ArtworkCard src={images.DSCF0123} alt="" />
+            <ArtworkCard src={images.DSCF0126} alt="" />
+          </ArtworkRow>
+          <Spacer variant="xs" />
+          <ArtworkRow>
+            <ArtworkCard src={images.DSCF0009} alt="" />
+            <ArtworkCard src={images.DSCF0010} alt="" />
+          </ArtworkRow>
+          <ArtworkRow>
+            <ArtworkCard src={images.DSCF0011} alt="" />
+            <ArtworkCard src={images.DSCF0012} alt="" />
+          </ArtworkRow>
+          <Spacer variant="xs" />
+        </ArtworkSection>
+
+        <ArtworkSection backgroundColor="bg-blue-100">
+          <ArtworkRow>
+            <ArtworkCard src={images.DSCF0082} alt="" hero />
+          </ArtworkRow>
+          <ArtworkRow>
+            <ArtworkCard src={images.DSCF0005} alt="" />
+            <ArtworkCard src={images.DSCF0006} alt="" />
+          </ArtworkRow>
+          <ArtworkRow>
+            <ArtworkCard src={images.DSCF0040} alt="" hero />
+          </ArtworkRow>
+          <ArtworkRow>
+            <ArtworkCard src={images.DSCF0007} alt="" />
+            <ArtworkCard src={images.DSCF0008} alt="" />
+          </ArtworkRow>
+          <Spacer variant="xs" />
+          <ArtworkRow>
+            <ArtworkCard src={images.DSCF0159} alt="" hero />
+            <ArtworkCard src={images.DSCF0069} alt="" hero />
+          </ArtworkRow>
+        </ArtworkSection>
+
+        <ArtworkSection backgroundColor="bg-fuchsia-100">
+          <ArtworkRow>
+            <ArtworkCard src={images.DSCF0029} alt="" />
+            <ArtworkCard src={images.DSCF0031} alt="" />
+          </ArtworkRow>
+          <ArtworkRow>
+            <ArtworkCard src={images.DSCF0025} alt="" />
+            <ArtworkCard src={images.DSCF0032} alt="" />
+          </ArtworkRow>
+          <Spacer variant="xs" />
+          <ArtworkRow>
+            <ArtworkCard src={images.DSCF0076} alt="" />
+            <ArtworkCard src={images.DSCF0077} alt="" />
+          </ArtworkRow>
+          <ArtworkRow>
+            <ArtworkCard src={images.DSCF0022} alt="" hero />
+          </ArtworkRow>
+          <ArtworkRow>
+            <ArtworkCard src={images.DSCF0078} alt="" />
+            <ArtworkCard src={images.DSCF0079} alt="" />
+          </ArtworkRow>
+          <ArtworkRow>
+            <ArtworkCard src={images.NEBULA} alt="Nebula" hero />
+          </ArtworkRow>
+          <Spacer variant="xs" />
+        </ArtworkSection>
+
+        <ArtworkSection backgroundColor="bg-purple-950">
+          <ArtworkRow>
+            <ArtworkCard src={images.DSCF0094} alt="" />
+            <ArtworkCard src={images.DSCF0095} alt="" />
+          </ArtworkRow>
+          <ArtworkRow>
+            <ArtworkCard src={images.DSCF0037} alt="" hero />
+          </ArtworkRow>
+          <ArtworkRow>
+            <ArtworkCard src={images.DSCF0039} alt="" />
+            <ArtworkCard src={images.DSCF0036} alt="" />
+          </ArtworkRow>
+          <ArtworkRow>
+            <ArtworkCard src={images.DSCF0041} alt="" hero />
+          </ArtworkRow>
+          <ArtworkRow>
+            <ArtworkCard src={images.DSCF0080} alt="" />
+            <ArtworkCard src={images.DSCF0081} alt="" />
+          </ArtworkRow>
         </ArtworkSection>
       </div>
     </Layout>

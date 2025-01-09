@@ -61,6 +61,96 @@ import ROSES from '../content/images/portfolio/impressionist/ROSES.png'
 import SAILBOAT from '../content/images/portfolio/impressionist/SAILBOAT.png'
 import VOID from '../content/images/portfolio/impressionist/VOID.png'
 
+//TODO: Organize images
+import DSCF0001 from '../content/images/portfolio/100MEDIA/DSCF0001.jpg'
+import DSCF0002 from '../content/images/portfolio/100MEDIA/DSCF0002.jpg'
+import DSCF0003 from '../content/images/portfolio/100MEDIA/DSCF0003.jpg'
+import DSCF0004 from '../content/images/portfolio/100MEDIA/DSCF0004.jpg'
+import DSCF0005 from '../content/images/portfolio/100MEDIA/DSCF0005.jpg'
+import DSCF0006 from '../content/images/portfolio/100MEDIA/DSCF0006.jpg'
+import DSCF0007 from '../content/images/portfolio/100MEDIA/DSCF0007.jpg'
+import DSCF0008 from '../content/images/portfolio/100MEDIA/DSCF0008.jpg'
+import DSCF0009 from '../content/images/portfolio/100MEDIA/DSCF0009.jpg'
+import DSCF0010 from '../content/images/portfolio/100MEDIA/DSCF0010.jpg'
+import DSCF0011 from '../content/images/portfolio/100MEDIA/DSCF0011.jpg'
+import DSCF0012 from '../content/images/portfolio/100MEDIA/DSCF0012.jpg'
+import DSCF0013 from '../content/images/portfolio/100MEDIA/DSCF0013.jpg'
+import DSCF0014 from '../content/images/portfolio/100MEDIA/DSCF0014.jpg'
+import DSCF0015 from '../content/images/portfolio/100MEDIA/DSCF0015.jpg'
+import DSCF0016 from '../content/images/portfolio/100MEDIA/DSCF0016.jpg'
+import DSCF0022 from '../content/images/portfolio/100MEDIA/DSCF0022.jpg'
+import DSCF0025 from '../content/images/portfolio/100MEDIA/DSCF0025.jpg'
+import DSCF0029 from '../content/images/portfolio/100MEDIA/DSCF0029.jpg'
+import DSCF0031 from '../content/images/portfolio/100MEDIA/DSCF0031.jpg'
+import DSCF0032 from '../content/images/portfolio/100MEDIA/DSCF0032.jpg'
+import DSCF0035 from '../content/images/portfolio/100MEDIA/DSCF0035.jpg'
+import DSCF0036 from '../content/images/portfolio/100MEDIA/DSCF0036.jpg'
+import DSCF0037 from '../content/images/portfolio/100MEDIA/DSCF0037.jpg'
+import DSCF0038 from '../content/images/portfolio/100MEDIA/DSCF0038.jpg'
+import DSCF0039 from '../content/images/portfolio/100MEDIA/DSCF0039.jpg'
+import DSCF0040 from '../content/images/portfolio/100MEDIA/DSCF0040.jpg'
+import DSCF0041 from '../content/images/portfolio/100MEDIA/DSCF0041.jpg'
+import DSCF0043 from '../content/images/portfolio/100MEDIA/DSCF0043.jpg'
+import DSCF0065 from '../content/images/portfolio/100MEDIA/DSCF0065.jpg'
+import DSCF0066 from '../content/images/portfolio/100MEDIA/DSCF0066.jpg'
+import DSCF0067 from '../content/images/portfolio/100MEDIA/DSCF0067.jpg'
+import DSCF0068 from '../content/images/portfolio/100MEDIA/DSCF0068.jpg'
+import DSCF0069 from '../content/images/portfolio/100MEDIA/DSCF0069.jpg'
+import DSCF0070 from '../content/images/portfolio/100MEDIA/DSCF0070.jpg'
+import DSCF0071 from '../content/images/portfolio/100MEDIA/DSCF0071.jpg'
+import DSCF0072 from '../content/images/portfolio/100MEDIA/DSCF0072.jpg'
+import DSCF0073 from '../content/images/portfolio/100MEDIA/DSCF0073.jpg'
+import DSCF0074 from '../content/images/portfolio/100MEDIA/DSCF0074.jpg'
+import DSCF0075 from '../content/images/portfolio/100MEDIA/DSCF0075.jpg'
+import DSCF0076 from '../content/images/portfolio/100MEDIA/DSCF0076.jpg'
+import DSCF0077 from '../content/images/portfolio/100MEDIA/DSCF0077.jpg'
+import DSCF0078 from '../content/images/portfolio/100MEDIA/DSCF0078.jpg'
+import DSCF0079 from '../content/images/portfolio/100MEDIA/DSCF0079.jpg'
+import DSCF0080 from '../content/images/portfolio/100MEDIA/DSCF0080.jpg'
+import DSCF0081 from '../content/images/portfolio/100MEDIA/DSCF0081.jpg'
+import DSCF0082 from '../content/images/portfolio/100MEDIA/DSCF0082.jpg'
+import DSCF0083 from '../content/images/portfolio/100MEDIA/DSCF0083.jpg'
+import DSCF0084 from '../content/images/portfolio/100MEDIA/DSCF0084.jpg'
+import DSCF0085 from '../content/images/portfolio/100MEDIA/DSCF0085.jpg'
+import DSCF0086 from '../content/images/portfolio/100MEDIA/DSCF0086.jpg'
+import DSCF0087 from '../content/images/portfolio/100MEDIA/DSCF0087.jpg'
+import DSCF0091 from '../content/images/portfolio/100MEDIA/DSCF0091.jpg'
+import DSCF0094 from '../content/images/portfolio/100MEDIA/DSCF0094.jpg'
+import DSCF0095 from '../content/images/portfolio/100MEDIA/DSCF0095.jpg'
+import DSCF0096 from '../content/images/portfolio/100MEDIA/DSCF0096.jpg'
+import DSCF0097 from '../content/images/portfolio/100MEDIA/DSCF0097.jpg'
+import DSCF0098 from '../content/images/portfolio/100MEDIA/DSCF0098.jpg'
+import DSCF0099 from '../content/images/portfolio/100MEDIA/DSCF0099.jpg'
+import DSCF0123 from '../content/images/portfolio/100MEDIA/DSCF0123.jpg'
+import DSCF0124 from '../content/images/portfolio/100MEDIA/DSCF0124.jpg'
+import DSCF0125 from '../content/images/portfolio/100MEDIA/DSCF0125.jpg'
+import DSCF0126 from '../content/images/portfolio/100MEDIA/DSCF0126.jpg'
+import DSCF0127 from '../content/images/portfolio/100MEDIA/DSCF0127.jpg'
+import DSCF0129 from '../content/images/portfolio/100MEDIA/DSCF0129.jpg'
+import DSCF0130 from '../content/images/portfolio/100MEDIA/DSCF0130.jpg'
+import DSCF0131 from '../content/images/portfolio/100MEDIA/DSCF0131.jpg'
+import DSCF0132 from '../content/images/portfolio/100MEDIA/DSCF0132.jpg'
+import DSCF0133 from '../content/images/portfolio/100MEDIA/DSCF0133.jpg'
+import DSCF0134 from '../content/images/portfolio/100MEDIA/DSCF0134.jpg'
+import DSCF0135 from '../content/images/portfolio/100MEDIA/DSCF0135.jpg'
+import DSCF0136 from '../content/images/portfolio/100MEDIA/DSCF0136.jpg'
+import DSCF0137 from '../content/images/portfolio/100MEDIA/DSCF0137.jpg'
+import DSCF0138 from '../content/images/portfolio/100MEDIA/DSCF0138.jpg'
+import DSCF0143 from '../content/images/portfolio/100MEDIA/DSCF0143.jpg'
+import DSCF0144 from '../content/images/portfolio/100MEDIA/DSCF0144.jpg'
+import DSCF0145 from '../content/images/portfolio/100MEDIA/DSCF0145.jpg'
+import DSCF0146 from '../content/images/portfolio/100MEDIA/DSCF0146.jpg'
+import DSCF0149 from '../content/images/portfolio/100MEDIA/DSCF0149.jpg'
+import DSCF0150 from '../content/images/portfolio/100MEDIA/DSCF0150.jpg'
+import DSCF0151 from '../content/images/portfolio/100MEDIA/DSCF0151.jpg'
+import DSCF0152 from '../content/images/portfolio/100MEDIA/DSCF0152.jpg'
+import DSCF0154 from '../content/images/portfolio/100MEDIA/DSCF0154.jpg'
+import DSCF0155 from '../content/images/portfolio/100MEDIA/DSCF0155.jpg'
+import DSCF0156 from '../content/images/portfolio/100MEDIA/DSCF0156.jpg'
+import DSCF0157 from '../content/images/portfolio/100MEDIA/DSCF0157.jpg'
+import DSCF0158 from '../content/images/portfolio/100MEDIA/DSCF0158.jpg'
+import DSCF0159 from '../content/images/portfolio/100MEDIA/DSCF0159.jpg'
+
 export const Image = {
   CHROMA,
   FLORAL,
@@ -113,7 +203,95 @@ export const Image = {
   PETALS,
   ROSES,
   SAILBOAT,
-  VOID
+  VOID,
+  DSCF0001,
+  DSCF0002,
+  DSCF0003,
+  DSCF0004,
+  DSCF0005,
+  DSCF0006,
+  DSCF0007,
+  DSCF0008,
+  DSCF0009,
+  DSCF0010,
+  DSCF0011,
+  DSCF0012,
+  DSCF0013,
+  DSCF0014,
+  DSCF0015,
+  DSCF0016,
+  DSCF0022,
+  DSCF0025,
+  DSCF0029,
+  DSCF0031,
+  DSCF0032,
+  DSCF0035,
+  DSCF0036,
+  DSCF0037,
+  DSCF0038,
+  DSCF0039,
+  DSCF0040,
+  DSCF0041,
+  DSCF0043,
+  DSCF0065,
+  DSCF0066,
+  DSCF0067,
+  DSCF0068,
+  DSCF0069,
+  DSCF0070,
+  DSCF0071,
+  DSCF0072,
+  DSCF0073,
+  DSCF0074,
+  DSCF0075,
+  DSCF0076,
+  DSCF0077,
+  DSCF0078,
+  DSCF0079,
+  DSCF0080,
+  DSCF0081,
+  DSCF0082,
+  DSCF0083,
+  DSCF0084,
+  DSCF0085,
+  DSCF0086,
+  DSCF0087,
+  DSCF0091,
+  DSCF0094,
+  DSCF0095,
+  DSCF0096,
+  DSCF0097,
+  DSCF0098,
+  DSCF0099,
+  DSCF0123,
+  DSCF0124,
+  DSCF0125,
+  DSCF0126,
+  DSCF0127,
+  DSCF0129,
+  DSCF0130,
+  DSCF0131,
+  DSCF0132,
+  DSCF0133,
+  DSCF0134,
+  DSCF0135,
+  DSCF0136,
+  DSCF0137,
+  DSCF0138,
+  DSCF0143,
+  DSCF0144,
+  DSCF0145,
+  DSCF0146,
+  DSCF0149,
+  DSCF0150,
+  DSCF0151,
+  DSCF0152,
+  DSCF0154,
+  DSCF0155,
+  DSCF0156,
+  DSCF0157,
+  DSCF0158,
+  DSCF0159
 }
 
 export default Image
