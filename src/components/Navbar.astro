@@ -2,6 +2,7 @@
 // src/components/Navbar.astro
 import { Image } from 'astro:assets'
 import WAVES_2 from '../content/images/portfolio/bubbles/ocean/WAVES_2.png'
+import { ARTICLE_LINK, ARTICLE_PROMO } from '../content/strings'
 
 const links = [
   { name: 'Portfolio', href: '/' },
@@ -11,9 +12,51 @@ const links = [
 ---
 
 <nav class="bg-white shadow-sm">
+  <!-- Notification Scroller -->
+  <div class="flex animate-marqueetLeftSlowMobile lg:animate-marqueeLeftSlow">
+    <Image
+      src={WAVES_2}
+      alt="NavbarTop1"
+      class="w-full h-1 object-cover object-[0%__85%] flex-shrink-0"
+      loading="eager"
+    />
+    <Image
+      src={WAVES_2}
+      alt="NavbarTop2"
+      class="w-full h-1 object-cover object-[0%_85%] flex-shrink-0"
+      loading="eager"
+    />
+  </div>
+  <a
+    href={ARTICLE_LINK}
+    class="relative overflow-hidden w-full bg-slate-800 group block"
+  >
+    <div
+      class="flex animate-marqueeRightFastMobile lg:animate-marqueeRightFast"
+    >
+      <div class="flex whitespace-nowrap">
+        {
+          Array.from({ length: 10 }).map(() => (
+            <span class="inline-flex text-white text-xl group-hover:text-amber-400 mx-16">
+              {ARTICLE_PROMO}
+            </span>
+          ))
+        }
+      </div>
+      <div class="flex whitespace-nowrap">
+        {
+          Array.from({ length: 10 }).map(() => (
+            <span class="inline-flex text-white text-xl group-hover:text-amber-400 mx-16">
+              {ARTICLE_PROMO}
+            </span>
+          ))
+        }
+      </div>
+    </div>
+  </a>
   <!-- Top Marquee Animation -->
   <div class="relative overflow-hidden">
-    <div class="flex animate-marqueeLeft">
+    <div class="flex animate-marqueeRightMobile lg:animate-marqueeRight">
       <Image
         src={WAVES_2}
         alt="NavbarTop1"
@@ -82,7 +125,7 @@ const links = [
   </div>
   <!-- Bottom Marquee Animation -->
   <div class="relative overflow-hidden">
-    <div class="flex animate-marqueeRight">
+    <div class="flex animate-marqueeLeftMobile lg:animate-marqueeLeft">
       <Image
         src={WAVES_2}
         alt="NavbarBottom1"
@@ -97,6 +140,7 @@ const links = [
       />
     </div>
   </div>
+
   <!-- Mobile menu, show/hide based on menu state. -->
   <div class="lg:hidden hidden" id="mobile-menu">
     <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">

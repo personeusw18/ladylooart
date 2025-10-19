@@ -22,3 +22,10 @@ export const PHONE = '607-742-7911'
 export const FOLLOW = 'Follow me:'
 
 export const TOOLTIP = 'Scroll down to see more'
+
+export const RETURN_TO_TOP = 'Return to top'
+
+export const ARTICLE_PROMO = 'Check out my article in thisiscny.com !'
+
+export const ARTICLE_LINK =
+  'https://www.syracuse.com/living/2025/10/former-corning-museum-manager-brings-sales-expertise-to-art-career.html'
