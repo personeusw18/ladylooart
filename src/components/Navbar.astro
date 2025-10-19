@@ -13,47 +13,51 @@ const links = [
 
 <nav class="bg-white shadow-sm">
   <!-- Notification Scroller -->
-  <div class="flex animate-marqueeLeftSlowMobile lg:animate-marqueeLeftSlow">
-    <Image
-      src={WAVES_2}
-      alt="NavbarTop1"
-      class="w-full h-1 object-cover object-[0%__85%] flex-shrink-0"
-      loading="eager"
-    />
-    <Image
-      src={WAVES_2}
-      alt="NavbarTop2"
-      class="w-full h-1 object-cover object-[0%_85%] flex-shrink-0"
-      loading="eager"
-    />
-  </div>
-  <a
-    href={ARTICLE_LINK}
-    class="relative overflow-hidden w-full bg-slate-800 group block"
-  >
-    <div
-      class="flex animate-marqueeRightFastMobile lg:animate-marqueeRightFast"
-    >
-      <div class="flex whitespace-nowrap">
-        {
-          Array.from({ length: 10 }).map(() => (
-            <span class="inline-flex text-white text-xl group-hover:text-amber-400 mx-16">
-              {ARTICLE_PROMO}
-            </span>
-          ))
-        }
-      </div>
-      <div class="flex whitespace-nowrap">
-        {
-          Array.from({ length: 10 }).map(() => (
-            <span class="inline-flex text-white text-xl group-hover:text-amber-400 mx-16">
-              {ARTICLE_PROMO}
-            </span>
-          ))
-        }
-      </div>
+  <div class="relative overflow-hidden">
+    <div class="flex animate-marqueeLeftSlowMobile lg:animate-marqueeLeftSlow">
+      <Image
+        src={WAVES_2}
+        alt="NavbarTop1"
+        class="w-full h-1 object-cover object-[0%__85%] flex-shrink-0"
+        loading="eager"
+      />
+      <Image
+        src={WAVES_2}
+        alt="NavbarTop2"
+        class="w-full h-1 object-cover object-[0%_85%] flex-shrink-0"
+        loading="eager"
+      />
     </div>
-  </a>
+  </div>
+  <div class="relative overflow-hidden">
+    <a
+      href={ARTICLE_LINK}
+      class="relative overflow-hidden w-full bg-slate-800 group block"
+    >
+      <div
+        class="flex animate-marqueeRightFastMobile lg:animate-marqueeRightFast"
+      >
+        <div class="flex whitespace-nowrap">
+          {
+            Array.from({ length: 10 }).map(() => (
+              <span class="inline-flex text-white text-xl group-hover:text-amber-400 mx-16">
+                {ARTICLE_PROMO}
+              </span>
+            ))
+          }
+        </div>
+        <div class="flex whitespace-nowrap">
+          {
+            Array.from({ length: 10 }).map(() => (
+              <span class="inline-flex text-white text-xl group-hover:text-amber-400 mx-16">
+                {ARTICLE_PROMO}
+              </span>
+            ))
+          }
+        </div>
+      </div>
+    </a>
+  </div>
   <!-- Top Marquee Animation -->
   <div class="relative overflow-hidden">
     <div class="flex animate-marqueeRightMobile lg:animate-marqueeRight">
