@@ -26,7 +26,17 @@ export default {
       },
       animation: {
         marqueeLeft: 'marqueeLeft 160s linear infinite',
+        marqueeLeftSlow: 'marqueeLeft 400s linear infinite',
+        marqueeLeftFast: 'marqueeLeft 120s linear infinite',
         marqueeRight: 'marqueeRight 180s linear infinite',
+        marqueeRightSlow: 'marqueeRight 400s linear infinite',
+        marqueeRightFast: 'marqueeRight 120s linear infinite',
+        marqueeLeftMobile: 'marqueeLeft 40s linear infinite',
+        marqueeLeftSlowMobile: 'marqueeLeft 100s linear infinite',
+        marqueeLeftFastMobile: 'marqueeLeft 30s linear infinite',
+        marqueeRightMobile: 'marqueeRight 45s linear infinite',
+        marqueeRightSlowMobile: 'marqueeRight 100s linear infinite',
+        marqueeRightFastMobile: 'marqueeRight 30s linear infinite',
         appear: "appear 1s ease-in-out",
         appearFast: "appear .25s ease-in"
       },

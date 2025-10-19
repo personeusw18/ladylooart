@@ -2,27 +2,27 @@ import CHROMA from '../content/images/portfolio/abstract/CHROMA.png'
 import FLORAL from '../content/images/portfolio/abstract/FLORAL.png'
 import ROCK_1 from '../content/images/portfolio/abstract/ROCK_1.png'
 import ROCK_2 from '../content/images/portfolio/abstract/ROCK_2.png'
-import RUST from '../content/images/portfolio/abstract/RUST.png'
-import SUN from '../content/images/portfolio/abstract/SUN.png'
+// import RUST from '../content/images/portfolio/abstract/RUST.png'
+// import SUN from '../content/images/portfolio/abstract/SUN.png'
 
-import LEAVES_1 from '../content/images/portfolio/bubbles/autumn/LEAVES_1.png'
-import LEAVES_2 from '../content/images/portfolio/bubbles/autumn/LEAVES_2.png'
-import LEAVES_3 from '../content/images/portfolio/bubbles/autumn/LEAVES_3.png'
-import LEAVES_4 from '../content/images/portfolio/bubbles/autumn/LEAVES_4.png'
+// import LEAVES_1 from '../content/images/portfolio/bubbles/autumn/LEAVES_1.png'
+// import LEAVES_2 from '../content/images/portfolio/bubbles/autumn/LEAVES_2.png'
+// import LEAVES_3 from '../content/images/portfolio/bubbles/autumn/LEAVES_3.png'
+// import LEAVES_4 from '../content/images/portfolio/bubbles/autumn/LEAVES_4.png'
 
-import SMOKE_1 from '../content/images/portfolio/bubbles/flame/SMOKE_1.png'
-import SMOKE_2 from '../content/images/portfolio/bubbles/flame/SMOKE_2.png'
-import SMOKE_3 from '../content/images/portfolio/bubbles/flame/SMOKE_3.png'
-import SMOKE_4 from '../content/images/portfolio/bubbles/flame/SMOKE_4.png'
+// import SMOKE_1 from '../content/images/portfolio/bubbles/flame/SMOKE_1.png'
+// import SMOKE_2 from '../content/images/portfolio/bubbles/flame/SMOKE_2.png'
+// import SMOKE_3 from '../content/images/portfolio/bubbles/flame/SMOKE_3.png'
+// import SMOKE_4 from '../content/images/portfolio/bubbles/flame/SMOKE_4.png'
 
-import BLOODSTONE_1 from '../content/images/portfolio/bubbles/gem/BLOODSTONE_1.png'
-import BLOODSTONE_2 from '../content/images/portfolio/bubbles/gem/BLOODSTONE_2.png'
-import JASPER_1 from '../content/images/portfolio/bubbles/gem/JASPER_1.png'
-import JASPER_2 from '../content/images/portfolio/bubbles/gem/JASPER_2.png'
-import JASPER_3 from '../content/images/portfolio/bubbles/gem/JASPER_3.png'
+// import BLOODSTONE_1 from '../content/images/portfolio/bubbles/gem/BLOODSTONE_1.png'
+// import BLOODSTONE_2 from '../content/images/portfolio/bubbles/gem/BLOODSTONE_2.png'
+// import JASPER_1 from '../content/images/portfolio/bubbles/gem/JASPER_1.png'
+// import JASPER_2 from '../content/images/portfolio/bubbles/gem/JASPER_2.png'
+// import JASPER_3 from '../content/images/portfolio/bubbles/gem/JASPER_3.png'
 
-import NIGHT_1 from '../content/images/portfolio/bubbles/night/NIGHT_1.png'
-import NIGHT_2 from '../content/images/portfolio/bubbles/night/NIGHT_2.png'
+// import NIGHT_1 from '../content/images/portfolio/bubbles/night/NIGHT_1.png'
+// import NIGHT_2 from '../content/images/portfolio/bubbles/night/NIGHT_2.png'
 
 import FOAM_1 from '../content/images/portfolio/bubbles/ocean/FOAM_1.png'
 import FOAM_2 from '../content/images/portfolio/bubbles/ocean/FOAM_2.png'
@@ -30,13 +30,13 @@ import FOAM_3 from '../content/images/portfolio/bubbles/ocean/FOAM_3.png'
 import WAVES_1 from '../content/images/portfolio/bubbles/ocean/WAVES_1.png'
 import WAVES_2 from '../content/images/portfolio/bubbles/ocean/WAVES_2.png'
 
-import SUNLIGHT_1 from '../content/images/portfolio/bubbles/sky/SUNLIGHT_1.png'
-import SUNLIGHT_2 from '../content/images/portfolio/bubbles/sky/SUNLIGHT_2.png'
-import SUNLIGHT_3 from '../content/images/portfolio/bubbles/sky/SUNLIGHT_3.png'
-import SUNLIGHT_4 from '../content/images/portfolio/bubbles/sky/SUNLIGHT_4.png'
+// import SUNLIGHT_1 from '../content/images/portfolio/bubbles/sky/SUNLIGHT_1.png'
+// import SUNLIGHT_2 from '../content/images/portfolio/bubbles/sky/SUNLIGHT_2.png'
+// import SUNLIGHT_3 from '../content/images/portfolio/bubbles/sky/SUNLIGHT_3.png'
+// import SUNLIGHT_4 from '../content/images/portfolio/bubbles/sky/SUNLIGHT_4.png'
 
 import MARBLE from '../content/images/portfolio/bubbles/space/MARBLE.png'
-import NEBULA from '../content/images/portfolio/bubbles/space/NEBULA.png'
+// import NEBULA from '../content/images/portfolio/bubbles/space/NEBULA.png'
 
 import AZALEA from '../content/images/portfolio/bubbles/spring/AZALEA.png'
 import CAMELLIA_1 from '../content/images/portfolio/bubbles/spring/CAMELLIA_1.png'
@@ -44,11 +44,11 @@ import CAMELLIA_2 from '../content/images/portfolio/bubbles/spring/CAMELLIA_2.pn
 import HYDRANGEA from '../content/images/portfolio/bubbles/spring/HYDRANGEA.png'
 import LAVENDER from '../content/images/portfolio/bubbles/spring/LAVENDER.png'
 
-import MONARCH_1 from '../content/images/portfolio/bubbles/summer/MONARCH_1.png'
-import MONARCH_2 from '../content/images/portfolio/bubbles/summer/MONARCH_2.png'
-import POPPY_1 from '../content/images/portfolio/bubbles/summer/POPPY_1.png'
-import POPPY_2 from '../content/images/portfolio/bubbles/summer/POPPY_2.png'
-import TULIP from '../content/images/portfolio/bubbles/summer/TULIP.png'
+// import MONARCH_1 from '../content/images/portfolio/bubbles/summer/MONARCH_1.png'
+// import MONARCH_2 from '../content/images/portfolio/bubbles/summer/MONARCH_2.png'
+// import POPPY_1 from '../content/images/portfolio/bubbles/summer/POPPY_1.png'
+// import POPPY_2 from '../content/images/portfolio/bubbles/summer/POPPY_2.png'
+// import TULIP from '../content/images/portfolio/bubbles/summer/TULIP.png'
 
 import DOORWAY_1 from '../content/images/portfolio/impressionist/DOORWAY_1.png'
 import DOORWAY_2 from '../content/images/portfolio/impressionist/DOORWAY_2.png'
@@ -150,50 +150,76 @@ import DSCF0156 from '../content/images/portfolio/new/DSCF0156.JPG'
 import DSCF0157 from '../content/images/portfolio/new/DSCF0157.JPG'
 import DSCF0158 from '../content/images/portfolio/new/DSCF0158.JPG'
 import DSCF0159 from '../content/images/portfolio/new/DSCF0159.JPG'
+import BEACH_GIRL from '../content/images/portfolio/october/BEACH_GIRL.JPEG'
+import BEACH_STARS from '../content/images/portfolio/october/BEACH_STARS.JPEG'
+import BEACH_SUNSET from '../content/images/portfolio/october/BEACH_SUNSET.JPEG'
+import BROWN_LIGHTGREEN_1 from '../content/images/portfolio/october/BROWN_LIGHTGREEN_1.JPEG'
+import BROWN_LIGHTGREEN_2 from '../content/images/portfolio/october/BROWN_LIGHTGREEN_2.JPEG'
+import LANTERN_UPDATED from '../content/images/portfolio/october/LANTERN_UPDATED.JPEG'
+import ORANGE_FLOWERS from '../content/images/portfolio/october/ORANGE_FLOWERS.JPEG'
+import ORANGE_SUNSET from '../content/images/portfolio/october/ORANGE_SUNSET.JPEG'
+import RED_STREET from '../content/images/portfolio/october/RED_STREET.JPEG'
+import SAILBOATS from '../content/images/portfolio/october/SAILBOATS.JPEG'
+import SKYLINE from '../content/images/portfolio/october/SKYLINE.JPEG'
+import SPIDER_CLOSE from '../content/images/portfolio/october/SPIDER_CLOSE.JPEG'
+import SPIDER from '../content/images/portfolio/october/SPIDER.JPEG'
+import SPIRITS from '../content/images/portfolio/october/SPIRITS.JPEG'
+import STORM from '../content/images/portfolio/october/STORM.JPEG'
+import STORMY_WAVES from '../content/images/portfolio/october/STORMY_WAVES.JPEG'
+import SUNRAYS from '../content/images/portfolio/october/SUNRAYS.JPEG'
+import SUNSET from '../content/images/portfolio/october/SUNSET.JPEG'
+import WATERFALL_GREEN from '../content/images/portfolio/october/WATERFALL_GREEN.JPEG'
+import WATERFALL_RED from '../content/images/portfolio/october/WATERFALL_RED.JPEG'
+import WATERFALL_BLUE from '../content/images/portfolio/october/WATERFALL_BLUE.JPEG'
+import WALL_1 from '../content/images/about/WALL_1.JPEG'
+import WALL_2 from '../content/images/about/WALL_2.JPEG'
+import HOUSE from '../content/images/portfolio/october/HOUSE.JPEG'
+import GREEN_SUNRAYS from '../content/images/portfolio/october/GREEN_SUNRAYS.JPEG'
+
 
 export const Image = {
   CHROMA,
   FLORAL,
   ROCK_1,
   ROCK_2,
-  RUST,
-  SUN,
-  LEAVES_1,
-  LEAVES_2,
-  LEAVES_3,
-  LEAVES_4,
-  SMOKE_1,
-  SMOKE_2,
-  SMOKE_3,
-  SMOKE_4,
-  BLOODSTONE_1,
-  BLOODSTONE_2,
-  JASPER_1,
-  JASPER_2,
-  JASPER_3,
-  NIGHT_1,
-  NIGHT_2,
+  // RUST,
+  // SUN,
+  // LEAVES_1,
+  // LEAVES_2,
+  // LEAVES_3,
+  // LEAVES_4,
+  // SMOKE_1,
+  // SMOKE_2,
+  // SMOKE_3,
+  // SMOKE_4,
+  // BLOODSTONE_1,
+  // BLOODSTONE_2,
+  // JASPER_1,
+  // JASPER_2,
+  // JASPER_3,
+  // NIGHT_1,
+  // NIGHT_2,
   FOAM_1,
   FOAM_2,
   FOAM_3,
   WAVES_1,
   WAVES_2,
-  SUNLIGHT_1,
-  SUNLIGHT_2,
-  SUNLIGHT_3,
-  SUNLIGHT_4,
+  // SUNLIGHT_1,
+  // SUNLIGHT_2,
+  // SUNLIGHT_3,
+  // SUNLIGHT_4,
   MARBLE,
-  NEBULA,
+  // NEBULA,
   AZALEA,
   CAMELLIA_1,
   CAMELLIA_2,
   HYDRANGEA,
   LAVENDER,
-  MONARCH_1,
-  MONARCH_2,
-  POPPY_1,
-  POPPY_2,
-  TULIP,
+  // MONARCH_1,
+  // MONARCH_2,
+  // POPPY_1,
+  // POPPY_2,
+  // TULIP,
   DOORWAY_1,
   DOORWAY_2,
   DOORWAY_3,
@@ -291,7 +317,32 @@ export const Image = {
   DSCF0156,
   DSCF0157,
   DSCF0158,
-  DSCF0159
+  DSCF0159,
+  BEACH_GIRL,
+  BEACH_STARS,
+  BEACH_SUNSET,
+  BROWN_LIGHTGREEN_1,
+  BROWN_LIGHTGREEN_2,
+  LANTERN_UPDATED,
+  ORANGE_SUNSET,
+  RED_STREET,
+  SAILBOATS,
+  SKYLINE,
+  SPIDER_CLOSE,
+  SPIDER,
+  SPIRITS,
+  STORM,
+  STORMY_WAVES,
+  SUNRAYS,
+  SUNSET,
+  WALL_1,
+  WALL_2,
+  WATERFALL_GREEN,
+  WATERFALL_RED,
+  WATERFALL_BLUE,
+  ORANGE_FLOWERS,
+  HOUSE,
+  GREEN_SUNRAYS
 }
 
 export default Image

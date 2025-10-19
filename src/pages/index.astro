@@ -6,6 +6,7 @@ import images from '../utils/images.js'
 import ArtworkSection from '../components/ArtworkSection.astro'
 import PortfolioTooltip from '../components/PortfolioTooltip.astro'
 import Spacer from '../components/Spacer.astro'
+import ReturnToTopTooltip from '../components/ReturnToTopTooltip.astro'
 
 // Landing page for LadyLooArt.com
 ---
@@ -22,26 +23,56 @@ import Spacer from '../components/Spacer.astro'
   <body>
     <Layout>
       <PortfolioTooltip />
+      <ReturnToTopTooltip />
       <div class="flex-col justify-center w-full parent-container">
-        <ArtworkSection backgroundColor="bg-cyan-700">
-          <ArtworkRow />
+        <ArtworkSection backgroundColor="bg-gray-900">
           <ArtworkRow>
-            <ArtworkCard src={images.FLOWERS} alt="" hero />
-            <ArtworkCard src={images.DSCF0150} alt="" hero />
-          </ArtworkRow>
-          <Spacer variant="xs" />
-          <ArtworkRow>
-            <ArtworkCard src={images.BLOODSTONE_1} alt="" hero />
-            <ArtworkCard src={images.BLOODSTONE_2} alt="" hero />
+            <ArtworkCard src={images.STORM} alt="" hero />
           </ArtworkRow>
           <ArtworkRow>
-            <ArtworkCard src={images.JASPER_1} alt="" />
-            <ArtworkCard src={images.JASPER_2} alt="" hero />
-            <ArtworkCard src={images.JASPER_3} alt="" />
+            <ArtworkCard src={images.BEACH_STARS} alt="" hero />
+            <ArtworkCard src={images.STORMY_WAVES} alt="" hero />
+          </ArtworkRow>
+          <ArtworkRow>
+            <ArtworkCard src={images.SAILBOATS} alt="" />
+            <ArtworkCard src={images.SKYLINE} alt="" hero />
           </ArtworkRow>
         </ArtworkSection>
 
+        <ArtworkSection backgroundColor="bg-orange-300">
+          <ArtworkRow>
+            <ArtworkCard src={images.SUNSET} alt="" hero />
+            <ArtworkCard src={images.ORANGE_SUNSET} alt="" hero />
+            <ArtworkCard src={images.ORANGE_FLOWERS} alt="" />
+          </ArtworkRow>
+          <ArtworkRow>
+            <ArtworkCard src={images.BEACH_GIRL} alt="" hero />
+            <ArtworkCard src={images.DSCF0132} alt="" hero />
+          </ArtworkRow>
+          <ArtworkRow>
+            <ArtworkCard src={images.DSCF0131} alt="" hero />
+            <ArtworkCard src={images.BEACH_SUNSET} alt="" hero />
+          </ArtworkRow>
+
+          <ArtworkRow>
+            <ArtworkCard src={images.DSCF0152} alt="" hero />
+          </ArtworkRow>
+          <!-- <ArtworkRow>
+            <ArtworkCard src={images.DSCF0001} alt="" />
+            <ArtworkCard src={images.DSCF0002} alt="" />
+          </ArtworkRow>
+          <ArtworkRow>
+            <ArtworkCard src={images.DSCF0003} alt="" />
+            <ArtworkCard src={images.DSCF0004} alt="" />
+          </ArtworkRow> -->
+        </ArtworkSection>
+
         <ArtworkSection backgroundColor="bg-gray-800">
+          <ArtworkRow>
+            <ArtworkCard src={images.WATERFALL_GREEN} alt="" />
+            <ArtworkCard src={images.WATERFALL_BLUE} alt="" hero />
+            <ArtworkCard src={images.WATERFALL_RED} alt="" />
+          </ArtworkRow>
           <ArtworkRow>
             <ArtworkCard src={images.WAVES_2} alt="Waves_2" hero />
           </ArtworkRow>
@@ -50,12 +81,10 @@ import Spacer from '../components/Spacer.astro'
             <ArtworkCard src={images.FOAM_2} alt="Foam_2" />
             <ArtworkCard src={images.FOAM_3} alt="Foam_3" />
           </ArtworkRow>
-          <Spacer variant="xs" />
           <ArtworkRow>
-            <ArtworkCard src={images.WAVES_1} alt="Waves_1" hero />
+            <ArtworkCard src={images.WAVES_1} alt="Waves_1" />
           </ArtworkRow>
-
-          <Spacer variant="xs" />
+          <!-- <Spacer variant="xs" />
           <ArtworkRow>
             <ArtworkCard src={images.DSCF0065} alt="" hero />
             <ArtworkCard src={images.DSCF0084} alt="" hero />
@@ -63,7 +92,30 @@ import Spacer from '../components/Spacer.astro'
           <ArtworkRow>
             <ArtworkCard src={images.DSCF0086} alt="" hero />
             <ArtworkCard src={images.DSCF0083} alt="" hero />
+          </ArtworkRow> -->
+        </ArtworkSection>
+
+        <ArtworkSection backgroundColor="bg-sky-600">
+          <ArtworkRow>
+            <ArtworkCard src={images.FLOWERS} alt="" hero />
+            <ArtworkCard src={images.DSCF0150} alt="" hero />
           </ArtworkRow>
+          <ArtworkRow>
+            <ArtworkCard src={images.GREEN_SUNRAYS} alt="" hero />
+          </ArtworkRow>
+          <ArtworkRow>
+            <ArtworkCard src={images.HOUSE} alt="" hero />
+            <ArtworkCard src={images.RED_STREET} alt="" hero />
+          </ArtworkRow>
+          <!-- <ArtworkRow>
+            <ArtworkCard src={images.BLOODSTONE_1} alt="" hero />
+            <ArtworkCard src={images.BLOODSTONE_2} alt="" hero />
+          </ArtworkRow>
+          <ArtworkRow>
+            <ArtworkCard src={images.JASPER_1} alt="" />
+            <ArtworkCard src={images.JASPER_2} alt="" hero />
+            <ArtworkCard src={images.JASPER_3} alt="" />
+          </ArtworkRow> -->
         </ArtworkSection>
 
         <ArtworkSection backgroundColor="bg-pink-950">
@@ -84,10 +136,9 @@ import Spacer from '../components/Spacer.astro'
             <ArtworkCard src={images.MARBLE} alt="Marble" hero />
             <ArtworkCard src={images.DSCF0043} alt="" hero />
           </ArtworkRow>
-          <Spacer variant="xs" />
         </ArtworkSection>
 
-        <ArtworkSection backgroundColor="bg-zinc-800">
+        <!-- <ArtworkSection backgroundColor="bg-zinc-800">
           <ArtworkRow>
             <ArtworkCard src={images.SUN} alt="Sun" hero />
             <ArtworkCard src={images.RUST} alt="Rust" hero />
@@ -108,7 +159,7 @@ import Spacer from '../components/Spacer.astro'
             <ArtworkCard src={images.DSCF0038} alt="" hero />
             <ArtworkCard src={images.TULIP} alt="Void" hero />
           </ArtworkRow>
-        </ArtworkSection>
+        </ArtworkSection> -->
 
         <ArtworkSection backgroundColor="bg-yellow-50">
           <ArtworkRow>
@@ -117,7 +168,6 @@ import Spacer from '../components/Spacer.astro'
             <ArtworkCard src={images.DOORWAY_3} alt="Doorway_3" hero />
           </ArtworkRow>
           <ArtworkRow>
-            <ArtworkCard src={images.PETALS} alt="Petals" hero />
             <ArtworkCard src={images.DSCF0130} alt="" hero />
           </ArtworkRow>
           <ArtworkRow>
@@ -130,33 +180,22 @@ import Spacer from '../components/Spacer.astro'
             <ArtworkCard src={images.DSCF0155} alt="" hero />
           </ArtworkRow>
           <ArtworkRow>
-            <ArtworkCard src={images.LANTERN} alt="Lantern" hero />
+            <ArtworkCard src={images.LANTERN_UPDATED} alt="Lantern" hero />
             <ArtworkCard src={images.DSCF0151} alt="" hero />
-          </ArtworkRow>
-        </ArtworkSection>
-
-        <ArtworkSection backgroundColor="bg-orange-100">
-          <ArtworkRow>
-            <ArtworkCard src={images.DSCF0131} alt="" hero />
-            <ArtworkCard src={images.DSCF0132} alt="" hero />
-          </ArtworkRow>
-          <ArtworkRow>
-            <ArtworkCard src={images.DSCF0001} alt="" />
-            <ArtworkCard src={images.DSCF0002} alt="" />
-          </ArtworkRow>
-          <ArtworkRow>
-            <ArtworkCard src={images.DSCF0003} alt="" />
-            <ArtworkCard src={images.DSCF0004} alt="" />
-          </ArtworkRow>
-          <ArtworkRow>
-            <ArtworkCard src={images.DSCF0152} alt="" hero />
           </ArtworkRow>
         </ArtworkSection>
 
         <ArtworkSection backgroundColor="bg-emerald-900">
           <ArtworkRow>
+            <ArtworkCard src={images.SPIRITS} alt="" hero />
+          </ArtworkRow>
+          <ArtworkRow>
             <ArtworkCard src={images.DSCF0035} alt="" hero />
             <ArtworkCard src={images.DSCF0156} alt="" hero />
+          </ArtworkRow>
+          <ArtworkRow>
+            <ArtworkCard src={images.BROWN_LIGHTGREEN_1} alt="" />
+            <ArtworkCard src={images.BROWN_LIGHTGREEN_2} alt="" />
           </ArtworkRow>
           <ArtworkRow>
             <ArtworkCard src={images.DSCF0070} alt="" />
@@ -166,8 +205,7 @@ import Spacer from '../components/Spacer.astro'
             <ArtworkCard src={images.DSCF0123} alt="" />
             <ArtworkCard src={images.DSCF0126} alt="" />
           </ArtworkRow>
-          <Spacer variant="xs" />
-          <ArtworkRow>
+          <!-- <ArtworkRow>
             <ArtworkCard src={images.DSCF0009} alt="" />
             <ArtworkCard src={images.DSCF0010} alt="" />
           </ArtworkRow>
@@ -175,32 +213,37 @@ import Spacer from '../components/Spacer.astro'
             <ArtworkCard src={images.DSCF0011} alt="" />
             <ArtworkCard src={images.DSCF0012} alt="" />
           </ArtworkRow>
-          <Spacer variant="xs" />
+          <Spacer variant="xs" /> -->
         </ArtworkSection>
 
         <ArtworkSection backgroundColor="bg-blue-100">
-          <ArtworkRow>
+          <!-- <ArtworkRow>
             <ArtworkCard src={images.DSCF0082} alt="" hero />
           </ArtworkRow>
           <ArtworkRow>
             <ArtworkCard src={images.DSCF0005} alt="" />
             <ArtworkCard src={images.DSCF0006} alt="" />
+          </ArtworkRow> -->
+          <ArtworkRow>
+            <ArtworkCard src={images.SPIDER} alt="Petals" hero />
           </ArtworkRow>
           <ArtworkRow>
             <ArtworkCard src={images.DSCF0040} alt="" hero />
           </ArtworkRow>
           <ArtworkRow>
-            <ArtworkCard src={images.DSCF0007} alt="" />
-            <ArtworkCard src={images.DSCF0008} alt="" />
-          </ArtworkRow>
-          <Spacer variant="xs" />
-          <ArtworkRow>
             <ArtworkCard src={images.DSCF0159} alt="" hero />
             <ArtworkCard src={images.DSCF0069} alt="" hero />
           </ArtworkRow>
+          <ArtworkRow>
+            <ArtworkCard src={images.SUNRAYS} alt="" hero />
+          </ArtworkRow>
+          <!-- <ArtworkRow>
+            <ArtworkCard src={images.DSCF0007} alt="" />
+            <ArtworkCard src={images.DSCF0008} alt="" />
+          </ArtworkRow> -->
         </ArtworkSection>
 
-        <ArtworkSection backgroundColor="bg-fuchsia-100">
+        <!-- <ArtworkSection backgroundColor="bg-fuchsia-100">
           <ArtworkRow>
             <ArtworkCard src={images.DSCF0029} alt="" />
             <ArtworkCard src={images.DSCF0031} alt="" />
@@ -225,7 +268,7 @@ import Spacer from '../components/Spacer.astro'
             <ArtworkCard src={images.NEBULA} alt="Nebula" hero />
           </ArtworkRow>
           <Spacer variant="xs" />
-        </ArtworkSection>
+        </ArtworkSection> -->
 
         <ArtworkSection backgroundColor="bg-purple-950">
           <ArtworkRow>
